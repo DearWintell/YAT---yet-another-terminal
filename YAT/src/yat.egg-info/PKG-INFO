@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: yat
+Version: 0.2.0
+Summary: YAT - Yet Another Terminal (Standalone GUI)
+Requires-Python: >=3.12
+Requires-Dist: pyte>=0.8.2
+Requires-Dist: pywinpty>=2.0.12
+Requires-Dist: PyQt6>=6.5.0

@@ -1,0 +1,17 @@
+[project]
+name = "yat"
+version = "0.2.0"
+description = "YAT - Yet Another Terminal (Standalone GUI)"
+requires-python = ">=3.12"
+dependencies = [
+    "pyte>=0.8.2",
+    "pywinpty>=2.0.12",
+    "PyQt6>=6.5.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
